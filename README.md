@@ -15,11 +15,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/szymonOk/frontendmentor_huddle-landing-page-with-single-introductory-section-master
+- Live Site URL: https://szymonok.github.io/frontendmentor_huddle-landing-page-with-single-introductory-section-master/
 
 ### Built with
 
 - Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
+
+## Author
+
+Github: https://github.com/szymonOk
