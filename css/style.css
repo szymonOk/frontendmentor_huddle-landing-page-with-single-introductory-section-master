@@ -1,0 +1,124 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("../images/bg-mobile.svg");
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.wrapper {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+header img {
+  margin: 30px 0;
+  width: 150px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .image img {
+  margin: 20px 0;
+  width: 100%;
+}
+
+main .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #f9e6ff;
+}
+
+main .text h1 {
+  margin-top: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+
+main .text p {
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+main .text button {
+  margin-top: 25px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 90px;
+  font-size: 15px;
+  color: #a63ae4;
+  -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+main .text button:hover {
+  background-color: #e85aec;
+  color: #f9e6ff;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .social {
+  margin: 50px 0;
+  color: #f9e6ff;
+}
+
+footer .social div {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  margin: 0 8px;
+  cursor: pointer;
+  -webkit-transition: color 0.3s, border 0.3s;
+  transition: color 0.3s, border 0.3s;
+}
+
+footer .social div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+footer .social div:hover {
+  color: #e235d4;
+  border: 1px solid #e235d4;
+}
+/*# sourceMappingURL=style.css.map */

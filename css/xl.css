@@ -1,0 +1,51 @@
+body {
+  background-image: url("../images/bg-desktop.svg");
+}
+
+.wrapper {
+  max-width: 1400px;
+}
+
+header img {
+  width: 200px;
+}
+
+main {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .image {
+  width: 50%;
+}
+
+main .image img {
+  margin: 40px 0;
+}
+
+main .text {
+  width: 50%;
+  padding: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+}
+
+main .text h1 {
+  font-size: 38px;
+}
+
+main .text p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+footer .social {
+  text-align: right;
+  margin: 0;
+  padding: 0 50px;
+}
+/*# sourceMappingURL=xl.css.map */
