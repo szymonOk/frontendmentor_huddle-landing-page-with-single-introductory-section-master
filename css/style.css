@@ -15,10 +15,7 @@ body {
 }
 
 .wrapper {
-  max-width: 350px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 25px;
+  padding: 0 35px;
 }
 
 header img {

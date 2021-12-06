@@ -1,0 +1,13 @@
+body {
+  background-size: cover;
+}
+
+main .image {
+  text-align: center;
+}
+
+main .image img {
+  margin: 20px 0;
+  width: 70%;
+}
+/*# sourceMappingURL=md.css.map */

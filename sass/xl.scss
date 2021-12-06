@@ -1,9 +1,6 @@
 body {
 	background-image: url('../images/bg-desktop.svg');
-}
-
-.wrapper {
-	max-width: 1400px;
+	background-size: contain;
 }
 
 header {
@@ -19,6 +16,7 @@ main {
 		width: 50%;
 		img {
 			margin: 40px 0;
+			width: 100%;
 		}
 	}
 
@@ -41,8 +39,7 @@ main {
 
 footer {
 	.social {
+		margin: -70px 50px;
 		text-align: right;
-		margin: 0;
-		padding: 0 50px;
 	}
 }

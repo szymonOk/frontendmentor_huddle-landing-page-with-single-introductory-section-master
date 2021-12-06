@@ -1,9 +1,6 @@
 body {
   background-image: url("../images/bg-desktop.svg");
-}
-
-.wrapper {
-  max-width: 1400px;
+  background-size: contain;
 }
 
 header img {
@@ -23,6 +20,7 @@ main .image {
 
 main .image img {
   margin: 40px 0;
+  width: 100%;
 }
 
 main .text {
@@ -44,8 +42,7 @@ main .text p {
 }
 
 footer .social {
+  margin: -70px 50px;
   text-align: right;
-  margin: 0;
-  padding: 0 50px;
 }
 /*# sourceMappingURL=xl.css.map */
